@@ -1,8 +1,23 @@
 \changetocdepth {2}
-\contentsline {chapter}{List of Figures}{i}
-\contentsline {chapter}{List of Tables}{i}
+\contentsline {chapter}{List of Figures}{ii}
+\contentsline {chapter}{List of Tables}{iii}
+\contentsline {chapter}{List of Publications}{iv}
+\contentsline {chapter}{Abstract}{v}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Literature Review}{2}
-\contentsline {chapter}{\chapternumberline {2}Experimental Methods}{3}
-\contentsline {chapter}{\chapternumberline {3}Results}{5}
-\contentsline {chapter}{\chapternumberline {4}Future Work}{6}
+\contentsline {chapter}{\chapternumberline {2}Experimental Methods}{4}
+\contentsline {section}{\numberline {2.1}Magnetron Sputtering}{4}
+\contentsline {section}{\numberline {2.2}Electron Beam Lithography}{5}
+\contentsline {section}{\numberline {2.3}Ultra-violet Lithography}{6}
+\contentsline {section}{\numberline {2.4}Metalization}{6}
+\contentsline {section}{\numberline {2.5}Characterization}{7}
+\contentsline {subsection}{\numberline {2.5.1}Structural}{7}
+\contentsline {subsubsection}{X-Ray Diffraction}{7}
+\contentsline {subsubsection}{X-Ray Reflectivity}{7}
+\contentsline {subsection}{\numberline {2.5.2}Electrical}{8}
+\contentsline {subsubsection}{Resistance Setup}{8}
+\contentsline {subsubsection}{CCR}{8}
+\contentsline {subsection}{\numberline {2.5.3}Scanning Electron Microscopy}{9}
+\contentsline {chapter}{\chapternumberline {3}Results}{10}
+\contentsline {chapter}{\chapternumberline {4}Future Work}{12}
+\contentsline {chapter}{References}{14}

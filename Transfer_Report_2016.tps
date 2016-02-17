@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Transfer_Report_2016.tex
 
 [Frame0_View0,0]
-TopLine=30
-Cursor=778
+TopLine=73
+Cursor=1438
 
 [SessionInfo]
 FrameCount=1

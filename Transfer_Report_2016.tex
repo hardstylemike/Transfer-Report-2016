@@ -1,8 +1,8 @@
-\documentclass[a4paper,12pt,article,twoside,onecolumn,openany,draft]{memoir}
+\documentclass[a4paper,12pt,article,oneside,onecolumn,openany,draft]{memoir}
 
 % Layout
 
-\setlrmarginsandblock{3.5cm}{2.5cm}{*}
+\setlrmarginsandblock{2.5cm}{2.5cm}{*}
 %\setulmargins{2.5cm}{*}{*}
 %\setheadfoot{\onelineskip}{2\onelineskip}
 %\setheaderspaces{1.5cm}{*}{*}
@@ -33,31 +33,82 @@
 \tableofcontents*
 
 % List of Figures
-
+\newpage
 \listoffigures
 
 % List of Tables
-
+\newpage
 \listoftables
+
+\newpage
+\chapter*{List of Publications}
+\addcontentsline{toc}{chapter}{List of Publications}
+One Pub\\
+\\
+Two pub\\
+
+\newpage
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\lipsum[1-2]
+
+\section*{Keywords}
+Keywords here.
 
 \mainmatter
 \pagestyle{headings}
 \chapter{Introduction}
-
+\thispagestyle{simple}
 \lipsum[1-5]
 
 \section{Literature Review}
 \lipsum[1-5]
 
+\newpage
 \chapter{Experimental Methods}
-\lipsum[1-5]
+\thispagestyle{simple}
+\lipsum[1]
 
+\section{Magnetron Sputtering}
+\lipsum[1-3]
+
+\section{Electron Beam Lithography}
+\lipsum[1-2]
+
+\section{Ultra-violet Lithography}
+\lipsum[1-2]
+
+\section{Metalization}
+\lipsum[1]
+
+\section{Characterization}
+\lipsum[1]
+\subsection{Structural}
+\subsubsection{X-Ray Diffraction}
+\lipsum[2]
+\subsubsection{X-Ray Reflectivity}
+\lipsum[3]
+\subsection{Electrical}
+\lipsum[4]
+\subsubsection{Resistance Setup}
+\lipsum[5]
+\subsubsection{CCR}
+\lipsum[6]
+\subsection{Scanning Electron Microscopy}
+\lipsum[7]
+
+
+\newpage
 \chapter{Results}
-
+\thispagestyle{simple}
 \lipsum[1-5]
 
+\newpage
 \chapter{Future Work}
+\thispagestyle{simple}
 \lipsum[1-5]
 
-
+\newpage
+\chapter*{References}
+\addcontentsline{toc}{chapter}{References}
 \end{document}
