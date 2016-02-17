@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt,article,twoside,onecolumn,openany,draft]{memoir}
+
+% Layout
+
+\setlrmarginsandblock{3.5cm}{2.5cm}{*}
+%\setulmargins{2.5cm}{*}{*}
+%\setheadfoot{\onelineskip}{2\onelineskip}
+%\setheaderspaces{1.5cm}{*}{*}
+\checkandfixthelayout
+
+% Fonts
+
+\OnehalfSpacing
+
+% Style
+
+\setsecnumdepth{subsection}
+\settocdepth{subsection}
+
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\frontmatter
+
+% Title Page
+
+% Abstract
+
+% Table of Contents
+
+\tableofcontents*
+
+% List of Figures
+
+\listoffigures
+
+% List of Tables
+
+\listoftables
+
+\mainmatter
+\pagestyle{headings}
+\chapter{Introduction}
+
+\lipsum[1-5]
+
+\section{Literature Review}
+\lipsum[1-5]
+
+\chapter{Experimental Methods}
+\lipsum[1-5]
+
+\chapter{Results}
+
+\lipsum[1-5]
+
+\chapter{Future Work}
+\lipsum[1-5]
+
+
+\end{document}
